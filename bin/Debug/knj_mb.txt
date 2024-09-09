@@ -1,0 +1,7 @@
+baza=Arilje2020.mdb
+[Design]
+gridBojaFontaNaslovneLinije=&HFFFFFF
+gridBojaBackground=&HFFFFFF
+gridBojaRowsBack=&HFFFFFF
+gridBojaRowsBackAlternting=&HFFFFFA
+gridForeColor=&H000000

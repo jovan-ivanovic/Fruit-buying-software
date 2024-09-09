@@ -1,0 +1,401 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Otkup
+</name>
+</assembly>
+<members>
+<member name="T:Otkup.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Otkup.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Otkup.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Otkup.frmAIzborDataTable.#ctor">
+ <summary>
+ Podrazumevani konstruktor
+ </summary>
+</member>
+<member name="M:Otkup.frmAIzborDataTable.#ctor(System.Data.DataTable,System.Int32[],System.String,System.String)">
+ <summary>
+ Konstruktor ukoliko se šalje DataTable objekat koji treba pretražiti i početni text
+ </summary>
+</member>
+<member name="M:Otkup.frmAIzborDataTable.#ctor(System.Data.DataTable,System.Int32[],System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Konstruktor ukoliko se šalje DataTable objekat koji treba pretražiti i početni text
+ </summary>
+</member>
+<member name="M:Otkup.frmAIzborDataTable.#ctor(System.String,System.String[],System.Int32[],System.String,System.String)">
+ <summary>
+ Konstruktor ukoliko se šalje DataTable objekat koji treba pretražiti i početni text
+ </summary>
+</member>
+<member name="M:Otkup.frmAIzborDataTable.#ctor(System.String,System.String[],System.Int32[],System.String,System.String,System.Boolean)">
+ <summary>
+ Konstruktor ukoliko se šalje DataTable objekat koji treba pretražiti i početni text. Ako je na kraju True redovi će biti razvučeni prema tome da li se tekst prelama
+ </summary>
+</member>
+<member name="M:Otkup.frmAIzborDataTable.#ctor(System.String,System.String[],System.Int32[],System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Konstruktor ukoliko se šalje DataTable objekat koji treba pretražiti i početni text. 
+ Ako je na kraju True redovi će biti razvučeni prema tome da li se tekst prelama
+ 10/2021 dodato je da se može zadati veličina forme. Difoltno je width=400 hight=400
+ sad se u zadnja dva parametra to može dodati jer je ona forma bila mala i sprčena
+ </summary>
+</member>
+<member name="M:Otkup.frmOtkupS.inicijalizujTextBoxove(System.Boolean)">
+ <summary>
+ f-ja inicijalizuje TextBox-ove vrednostima iz niza
+ </summary>
+ <param name="sacuvajTrenVr">da li čuva trenutne vrednosti pre inicijalizacije(kod f-je Upisi)</param>
+</member>
+<member name="M:Otkup.frmOtkupS.popuniOpisnuLabelu(System.Object,System.EventArgs)">
+ <summary>
+ događaj popunjava opisnu labelu na osnovu šifre u poslatom TextBoxu-u.
+ </summary>
+</member>
+<member name="M:Otkup.frmOtkupS.popuniSveOpisneLabele">
+ <summary>
+ f-ja popunjava opisne labele sa vrednostima u odgovarajućim TextBoxo-vima
+ </summary>
+</member>
+<member name="M:Otkup.frmOtkupS.isprazniSveOpisneLabele">
+ <summary>
+ f-ja prazni sve opisne labele
+ </summary>
+</member>
+<member name="M:Otkup.frmOtkupS.napuniKontaRMemorija">
+ <summary>
+ puni tabelu KontaR koja će se čuvati u memoriji i vraća true ili false u zavisnosti da li je punjenje uspelo
+ </summary>
+</member>
+<member name="F:Otkup.frmOtkupZ.tmpDok">
+ <summary>
+ šifra dokumenta koja je OBAVEZNO dobijena iz konstruktora
+ </summary>
+</member>
+<member name="M:Otkup.frmOtkupZ.#ctor(System.String,System.String)">
+ <summary>
+ šifra dokumenta
+ </summary>
+ <param name="dokument">šifra dokumenta koja će se upsivati i koristiti</param>
+</member>
+<member name="M:Otkup.frmOtkupZ.inicijalizujTextBoxove(System.Boolean)">
+ <summary>
+ f-ja inicijalizuje TextBox-ove vrednostima iz niza
+ </summary>
+ <param name="sacuvajTrenVr">da li čuva trenutne vrednosti pre inicijalizacije(kod f-je Upisi)</param>
+</member>
+<member name="M:Otkup.frmOtkupZ.popuniOpisnuLabelu(System.Object,System.EventArgs)">
+ <summary>
+ događaj popunjava opisnu labelu na osnovu šifre u poslatom TextBoxu-u.
+ </summary>
+</member>
+<member name="M:Otkup.frmOtkupZ.popuniSveOpisneLabele">
+ <summary>
+ f-ja popunjava opisne labele sa vrednostima u odgovarajućim TextBoxo-vima
+ </summary>
+</member>
+<member name="M:Otkup.frmOtkupZ.isprazniSveOpisneLabele">
+ <summary>
+ f-ja prazni sve opisne labele
+ </summary>
+</member>
+<member name="M:Otkup.frmSifOtkAmb.inicijalizujTextBoxove(System.Boolean)">
+ <summary>
+ f-ja inicijalizuje TextBox-ove vrednostima iz niza
+ </summary>
+ <param name="sacuvajTrenVr">da li čuva trenutne vrednosti pre inicijalizacije(kod f-je Upisi)</param>
+</member>
+<member name="M:Otkup.frmSifOtkAmb.popuniOpisnuLabelu(System.Object,System.EventArgs)">
+ <summary>
+ događaj popunjava opisnu labelu na osnovu šifre u poslatom TextBoxu-u.
+ </summary>
+</member>
+<member name="M:Otkup.frmSifOtkAmb.popuniSveOpisneLabele">
+ <summary>
+ f-ja popunjava opisne labele sa vrednostima u odgovarajućim TextBoxo-vima
+ </summary>
+</member>
+<member name="M:Otkup.frmSifOtkAmb.isprazniSveOpisneLabele">
+ <summary>
+ f-ja prazni sve opisne labele
+ </summary>
+</member>
+<member name="M:Otkup.frmSifArtikli.inicijalizujTextBoxove(System.Boolean)">
+ <summary>
+ f-ja inicijalizuje TextBox-ove vrednostima iz niza
+ </summary>
+ <param name="sacuvajTrenVr">da li čuva trenutne vrednosti pre inicijalizacije(kod f-je Upisi)</param>
+</member>
+<member name="M:Otkup.frmSifArtikli.popuniOpisnuLabelu(System.Object,System.EventArgs)">
+ <summary>
+ događaj popunjava opisnu labelu na osnovu šifre u poslatom TextBoxu-u.
+ </summary>
+</member>
+<member name="M:Otkup.frmSifArtikli.popuniSveOpisneLabele">
+ <summary>
+ f-ja popunjava opisne labele sa vrednostima u odgovarajućim TextBoxo-vima
+ </summary>
+</member>
+<member name="M:Otkup.frmSifArtikli.isprazniSveOpisneLabele">
+ <summary>
+ f-ja prazni sve opisne labele
+ </summary>
+</member>
+<member name="M:Otkup.frmSifDob.inicijalizujTextBoxove(System.Boolean)">
+ <summary>
+ f-ja inicijalizuje TextBox-ove vrednostima iz niza
+ </summary>
+ <param name="sacuvajTrenVr">da li čuva trenutne vrednosti pre inicijalizacije(kod f-je Upisi)</param>
+</member>
+<member name="M:Otkup.frmSifDob.popuniOpisnuLabelu(System.Object,System.EventArgs)">
+ <summary>
+ događaj popunjava opisnu labelu na osnovu šifre u poslatom TextBoxu-u.
+ </summary>
+</member>
+<member name="M:Otkup.frmSifDob.popuniSveOpisneLabele">
+ <summary>
+ f-ja popunjava opisne labele sa vrednostima u odgovarajućim TextBoxo-vima
+ </summary>
+</member>
+<member name="M:Otkup.frmSifDob.isprazniSveOpisneLabele">
+ <summary>
+ f-ja prazni sve opisne labele
+ </summary>
+</member>
+<member name="M:Otkup.frmSifDok.inicijalizujTextBoxove(System.Boolean)">
+ <summary>
+ f-ja inicijalizuje TextBox-ove vrednostima iz niza
+ </summary>
+ <param name="sacuvajTrenVr">da li čuva trenutne vrednosti pre inicijalizacije(kod f-je Upisi)</param>
+</member>
+<member name="M:Otkup.frmSifDok.popuniOpisnuLabelu(System.Object,System.EventArgs)">
+ <summary>
+ događaj popunjava opisnu labelu na osnovu šifre u poslatom TextBoxu-u.
+ </summary>
+</member>
+<member name="M:Otkup.frmSifDok.popuniSveOpisneLabele">
+ <summary>
+ f-ja popunjava opisne labele sa vrednostima u odgovarajućim TextBoxo-vima
+ </summary>
+</member>
+<member name="M:Otkup.frmSifDok.isprazniSveOpisneLabele">
+ <summary>
+ f-ja prazni sve opisne labele
+ </summary>
+</member>
+<member name="M:Otkup.frmSifOtkMes.inicijalizujTextBoxove(System.Boolean)">
+ <summary>
+ f-ja inicijalizuje TextBox-ove vrednostima iz niza
+ </summary>
+ <param name="sacuvajTrenVr">da li čuva trenutne vrednosti pre inicijalizacije(kod f-je Upisi)</param>
+</member>
+<member name="M:Otkup.frmSifOtkMes.popuniOpisnuLabelu(System.Object,System.EventArgs)">
+ <summary>
+ događaj popunjava opisnu labelu na osnovu šifre u poslatom TextBoxu-u.
+ </summary>
+</member>
+<member name="M:Otkup.frmSifOtkMes.popuniSveOpisneLabele">
+ <summary>
+ f-ja popunjava opisne labele sa vrednostima u odgovarajućim TextBoxo-vima
+ </summary>
+</member>
+<member name="M:Otkup.frmSifOtkMes.isprazniSveOpisneLabele">
+ <summary>
+ f-ja prazni sve opisne labele
+ </summary>
+</member>
+<member name="M:Otkup.modDesign.upisiUBazu">
+ <summary>
+ F-ja upisuje promeljive modDesign u bazu.
+ </summary>
+</member>
+<member name="M:Otkup.modDesign.citajIzBaze">
+ <summary>
+ F-ja inicijalizuje promenljive modDesign iz baze.
+ </summary>
+</member>
+<member name="F:Otkup.modFirma.put_down">
+ <summary>
+ putanja do centralne baze za replikaciju podataka
+ </summary>
+</member>
+<member name="F:Otkup.modFirma.baza_down">
+ <summary>
+ ime centralne baze za replikaciju podataka
+ </summary>
+</member>
+<member name="F:Otkup.modFirma.put_up">
+ <summary>
+ putanja do baze koja se uploaduje na FTP server
+ </summary>
+</member>
+<member name="F:Otkup.modFirma.baza_up">
+ <summary>
+ putanja do baze koja se uploaduje na FTP server
+ </summary>
+</member>
+<member name="M:Otkup.modFirma.upisiUIni">
+ <summary>
+ F-ja upisuje promeljive modFirma u ini file.
+ </summary>
+</member>
+<member name="M:Otkup.modFirma.citajIzIni">
+ <summary>
+ F-ja inicijalizuje promenljive modula Firma iz ini filea. Inicijalizuje i modMain.strBaza.
+ </summary>
+</member>
+<member name="M:Otkup.modFirma.citajIzTemp">
+ <summary>
+ F-ja iz .tmp file-a čita ime .ini file-a i vraća putanju do njega.
+ </summary>
+</member>
+<member name="M:Otkup.modFirma.formirajImeBaze(System.Int32)">
+ <summary>
+ f-ja formira ime baze u modMain.strBaza u zavisnosti od opcionog parametra poslovna godina
+ </summary>
+ <param name="godina">ukoliko nije poslat uzima se modFirma.poslovnaGod</param>
+</member>
+<member name="M:Otkup.modForma.upisiPozicijuUBazu(System.Windows.Forms.Form)">
+ <summary>
+ F-ja upisuje lokaciju i dimenzije poslate forme u bazu.
+ </summary>
+ <param name="forma"> Forma čije podatke treba upisati. </param>
+</member>
+<member name="M:Otkup.modForma.citajPozicIzBazePoslatoIme(System.Windows.Forms.Form,System.String,System.Boolean@)">
+ <summary>
+ F-ja čita lokaciju, dimenzije i orijantaciju za štampanje za poslatu formu.
+ Za razliku od funkcije citajPozicijuIzBaze ovde se radi sa imenom a ne sa forma.name
+ </summary>
+ <param name="forma"> Forma čije podatke treba pročitati. </param>
+ <param name="landscape"> Landscape štampanje(true, false) </param>
+</member>
+<member name="M:Otkup.modForma.citajPozicijuIzBaze(System.Windows.Forms.Form)">
+ <summary>
+ F-ja čita lokaciju i dimenzije poslate forme iz bazu.
+ </summary>
+ <param name="forma"> Forma čije podatke treba pročitati. </param>
+</member>
+<member name="M:Otkup.modForma.upisiPozicUBazuPrekoImena(System.Windows.Forms.Form,System.String,System.Boolean)">
+ <summary>
+ F-ja upisuje lokaciju, dimenzije i orijantaciju za štampanje za poslatu formu.
+ Za razliku od funkcije upisiPozicijuUBazu ovde se prosledi ime koje forme koje se cuva u tabeli Width
+ </summary>
+ <param name="forma"> Forma čije podatke treba upisati. </param>
+ <param name="landscape"> Landscape štampanje(true, false) </param>
+</member>
+<member name="M:Otkup.modGrid.formatirajGridDataTableIzbor(System.Windows.Forms.DataGridView,System.Int32[],System.Boolean)">
+ <summary>
+ formatiranje grida koji se puni sa Data Tabelom
+ </summary>
+</member>
+<member name="M:Otkup.modGrid.podesiPoslednjiRed(System.Windows.Forms.DataGridView)">
+ <summary>
+ f-ju koristim samo kada grid punim sa DataTable objektom i pozivam je nakon sto je punjenje
+ zavrseno, jer drugacije red nece da primi format, rizicno je sa eventom AfterBindingComplete
+ </summary>
+ <param name="dgv"></param>
+</member>
+<member name="M:Otkup.modINI.citajSveIzIni">
+ <summary>
+ sve sto se čita ili će se mozda nekad čitati iz inicijalnog file-a treba ubaciti u ovu f-ju
+ </summary>
+</member>
+<member name="M:Otkup.modMain.kreirajFormuZaIzbor(System.String,System.String[],System.Int32[],System.String,System.String)">
+ <summary>
+ poziva formu za izbor sa novim načinom pretrage podataka, trebalo bi da zameni staru formu 
+ </summary>
+</member>
+<member name="M:Otkup.modMain.kreirajFormuZaIzbor_SirinaVisina(System.String,System.String[],System.Int32[],System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ 10/2021
+ poziva formu kao prethodna samo se mora zadati sirina i visina forme. ona iz dizajna je 400 x 400 
+ </summary>
+</member>
+<member name="M:Otkup.modOleDb.zatvoriKonekciju(System.Data.OleDb.OleDbConnection)">
+ <summary>
+ f-ja zatvara poslatu konekciju 
+ </summary>
+</member>
+<member name="M:Otkup.modOleDb.RecordCountB(System.String)">
+ <summary>
+ Funkcija prosledjuje broj slogova u public konekciji adoCN za poslati strSql
+ </summary>
+ <param name="strSql">Sql uput</param>
+ <returns></returns>
+</member>
+<member name="M:Otkup.modOleDb.IzmeniRedUTabl_2_where(System.String,System.String[],System.Object[],System.String)">
+ <summary>
+ f-ja formira insert upit na osnovu poslatih parametra i izvršava ga na bazi
+ </summary>
+ <param name="strTabela">tabela</param>
+ <param name="kolone">kolone za insert</param>
+ <param name="vrednosti">vrednosti za insert</param>
+ <param name="strWhere">Naziv id kolone</param>
+ <returns></returns>
+</member>
+<member name="M:Otkup.modOleDb.DodajRedUTabl_2(System.String,System.String[],System.Object[])">
+ <summary>
+ f-ja formira insert upit na osnovu poslatih parametra i izvršava ga na bazi
+ </summary>
+ <param name="strTabela">tabela</param>
+ <param name="kolone">kolone za insert</param>
+ <param name="vrednosti">vrednosti za insert</param>
+ <returns></returns>
+</member>
+<member name="M:Otkup.loginStruktura.resetujVrednosti">
+ <summary>
+ resetuje vrednosti strukture
+ </summary>
+</member>
+<member name="F:Otkup.modUser.login_info">
+ <summary>
+ struktura u kojoj se čuvaju informacije o trenutno ulogovanom korisniku(konobaru, kasiru)
+ </summary>
+</member>
+<member name="F:Otkup.modUser.vrsta_projekta">
+ <summary>
+ promenljiva koja definiše da li je pos projekat restoran ili fiskalna kasa jer će projekti koristiti iste f-je i logiku
+ </summary>
+</member>
+<member name="M:Otkup.modUser.postojeKorisnici">
+ <summary>
+ f-ja proverava da li u bazi postoji tabela Users i inicijalizuje promenljivu bool_user
+ </summary>
+</member>
+<member name="M:Otkup.modUser.inicijalizujPodatkeOKorisniku(System.String)">
+ <summary>
+ f-ja neće raditi dok se ne uklopi sa tabelom Users koju treba napraviti
+ </summary>
+ <param name="password"></param>
+ <returns></returns>
+</member>
+<member name="M:Otkup.modUser.GetItems(System.Windows.Forms.MenuStrip)">
+ <summary>
+ 
+ </summary>
+ <param name="menuStrip"></param>
+ <returns></returns>
+</member>
+<member name="M:Otkup.modUser.GetMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Collections.Generic.List{System.Windows.Forms.ToolStripMenuItem})">
+ <summary>
+ 
+ </summary>
+ <param name="item"></param>
+ <param name="items"></param>
+</member>
+</members>
+</doc>
