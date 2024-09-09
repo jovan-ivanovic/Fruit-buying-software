@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56E5073D-BAA4-4609-873E-031025AD44E7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Otkup.My.MyApplication</StartupObject>
+    <RootNamespace>Otkup</RootNamespace>
+    <AssemblyName>Otkup</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Otkup.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Otkup.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.interop.access.dao, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Access.Dao\14.0.0.0__71e9bce111e9429c\Microsoft.Office.interop.access.dao.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Vbe.Interop\15.0.0.0__71e9bce111e9429c\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="OFFICE, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\office\15.0.0.0__71e9bce111e9429c\OFFICE.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Projekat\frmAIzborDataTable.designer.vb">
+      <Link>Referencirani\Forme\frmAIzborDataTable.designer.vb</Link>
+      <DependentUpon>frmAIzborDataTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\Projekat\frmAIzborDataTable.vb">
+      <Link>Referencirani\Forme\frmAIzborDataTable.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\Projekat\frmAPretraga.designer.vb">
+      <Link>Referencirani\Forme\frmAPretraga.designer.vb</Link>
+      <DependentUpon>frmAPretraga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\Projekat\frmAPretraga.vb">
+      <Link>Referencirani\Forme\frmAPretraga.vb</Link>
+    </Compile>
+    <Compile Include="..\Projekat\MojMsgBox.designer.vb">
+      <Link>Referencirani\Forme\MojMsgBox.designer.vb</Link>
+      <DependentUpon>MojMsgBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\Projekat\MojMsgBox.vb">
+      <Link>Referencirani\Forme\MojMsgBox.vb</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\frmOtkupS.designer.vb">
+      <DependentUpon>frmOtkupS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\frmOtkupS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\frmOtkupZ.designer.vb">
+      <DependentUpon>frmOtkupZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\frmOtkupZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\frmSifAmb.designer.vb">
+      <DependentUpon>frmSifAmb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\frmSifAmb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\frmSifArtikli.designer.vb">
+      <DependentUpon>frmSifArtikli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\frmSifArtikli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\frmSifDob.designer.vb">
+      <DependentUpon>frmSifDob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\frmSifDob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\frmSifDok.designer.vb">
+      <DependentUpon>frmSifDok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\frmSifDok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\frmSifOtkMes.designer.vb">
+      <DependentUpon>frmSifOtkMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\frmSifOtkMes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGlavna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGlavna.Designer.vb">
+      <DependentUpon>frmGlavna.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moduli\modArtikal.vb" />
+    <Compile Include="Moduli\modDesign.vb" />
+    <Compile Include="Moduli\modFirma.vb" />
+    <Compile Include="Moduli\modForma.vb" />
+    <Compile Include="Moduli\modGrid.vb" />
+    <Compile Include="Moduli\ModINI.vb" />
+    <Compile Include="Moduli\modMain.vb" />
+    <Compile Include="Moduli\modOleDb.vb" />
+    <Compile Include="Moduli\modStampaCR.vb" />
+    <Compile Include="Moduli\modUser.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Projekat\frmAIzborDataTable.resx">
+      <Link>Referencirani\Forme\frmAIzborDataTable.resx</Link>
+      <DependentUpon>frmAIzborDataTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Projekat\frmAPretraga.resx">
+      <Link>Referencirani\Forme\frmAPretraga.resx</Link>
+      <DependentUpon>frmAPretraga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Projekat\MojMsgBox.resx">
+      <Link>Referencirani\Forme\MojMsgBox.resx</Link>
+      <DependentUpon>MojMsgBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\frmOtkupS.resx">
+      <DependentUpon>frmOtkupS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\frmOtkupZ.resx">
+      <DependentUpon>frmOtkupZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\frmSifAmb.resx">
+      <DependentUpon>frmSifAmb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\frmSifArtikli.resx">
+      <DependentUpon>frmSifArtikli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\frmSifDob.resx">
+      <DependentUpon>frmSifDob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\frmSifDok.resx">
+      <DependentUpon>frmSifDok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\frmSifOtkMes.resx">
+      <DependentUpon>frmSifOtkMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGlavna.resx">
+      <DependentUpon>frmGlavna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Izvestaji\clrGridLand.rpt" />
+    <None Include="Izvestaji\clrGridPort.rpt" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Referencirani\Moduli\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
